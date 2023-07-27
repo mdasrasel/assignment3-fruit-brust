@@ -24,7 +24,7 @@
     <header class=" m-5">
         <!-- navbar section -->
         <nav>
-            <div class="navbar bg-[#F85559] rounded-full ">
+            <div class="navbar bg-[#F85559] rounded-full my-5 ">
                 <div class="navbar-start btn-circle">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden text-white">
@@ -259,21 +259,20 @@
         </section>
         <!-- meet the team section -->
         <section class="my-20">
-            <div class="relative w-full ">
-                <div class=" inset-0 absolute bg-gray-900 bg-opacity-75"></div>
-                <img src="/images/team.png" class="w-full inset-0" />
-
-                <div class=" absolute text-white top-10 text-center">
-                    <h2 class=" text-2xl lg:text-6xl font-bold p-5 ">Meet the team section</h2>
-                    <p class="w-1/2 text-center m-auto">Contrary to popular belief, is not simply random text. It has
-                        roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <div class="hero relative bg-cover inset-0">
+                <img src="images/team.png" alt="" >
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class=" text-white text-center mb-60">
+                    <div class="w-auto">
+                        <h1 class="m-auto text-5xl font-bold pb-5">Meet the team section</h1>
+                        <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
                 </div>
             </div>
-
-            <div class=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 mx-5 justify-center px-10">
-                <div class="text-xl">
+            <div class=" flex lg:flex-row relative -top-80 gap-20 justify-center items-center">
+                <div class=" text-white text-center">
                     <img src="images/member1.png" alt="">
-                    <h3 class="font-bold">Awlad Hossain</h3>
+                    <h3 class="text-xl font-semibold">Awlad Hossain</h3>
                     <p>Fruits Expert</p>
                     <div class=" text-[#F85559]">
                         <i class="fa-brands fa-facebook "></i>
@@ -281,9 +280,9 @@
                         <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
-                <div class="text-xl">
+                <div class=" text-white text-center">
                     <img src="images/member2.png" alt="">
-                    <h3 class="font-bold">Safia Chowdhury</h3>
+                    <h3 class="text-xl font-semibold">Safia Chowdhury</h3>
                     <p>Fruits Expert</p>
                     <div class=" text-[#F85559]">
                         <i class="fa-brands fa-facebook "></i>
@@ -291,9 +290,9 @@
                         <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
-                <div class="text-xl">
+                <div class=" text-white text-center">
                     <img src="images/member3.png" alt="">
-                    <h3 class="font-bold">Rokib Hossain</h3>
+                    <h3 class="text-xl font-semibold">Rokib Hossain</h3>
                     <p>Fruits Expert</p>
                     <div class=" text-[#F85559]">
                         <i class="fa-brands fa-facebook "></i>
@@ -301,9 +300,9 @@
                         <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
-                <div class="text-xl">
+                <div class=" text-white text-center">
                     <img src="images/member4.png" alt="">
-                    <h3 class="font-bold">Chaity</h3>
+                    <h3 class="text-xl font-semibold ">Chaity</h3>
                     <p>Fruits Expert</p>
                     <div class=" text-[#F85559]">
                         <i class="fa-brands fa-facebook "></i>
@@ -313,6 +312,7 @@
                 </div>
             </div>
         </section>
+        <!-- why choose us section -->
         <section class="my-20">
             <div class="text-center">
                 <h3 class="text-3xl font-extrabold py-2 ">Why Choose Us</h3>
@@ -326,21 +326,21 @@
                     <div class="flex gap-4 py-2">
                         <i class="fa-solid fa-people-group m-2"></i>
                         <div>
-                            <h3 class="text-2xl font-bold border-b-2 border-gray-400">Dedicated Team</h3>
+                            <h3 class="text-2xl font-bold border-b-2 border-gray-400 w-48">Dedicated Team</h3>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
                     <div class="flex gap-4 py-2">
                         <i class="fa-solid fa-heart m-2"></i>
                         <div>
-                            <h3 class="text-2xl font-bold border-b-2 border-gray-400">Fresh is Best</h3>
+                            <h3 class="text-2xl font-bold border-b-2 border-gray-400 w-48">Fresh is Best</h3>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
                     <div class="flex gap-4 py-2">
                         <i class="fa-solid fa-gift m-2"></i>
                         <div>
-                            <h3 class="text-2xl font-bold border-b-2 border-gray-400 ">Gift Certificates</h3>
+                            <h3 class="text-2xl font-bold border-b-2 border-gray-400 w-48 ">Gift Certificates</h3>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -354,21 +354,23 @@
                     <div class="flex flex-row-reverse gap-4 py-2">
                         <i class="fa-solid fa-lemon m-2"></i>
                         <div>
-                            <h3 class="text-2xl font-bold border-b-2 border-gray-400">Integrated Supplier</h3>
+                            <h3 class="text-2xl font-bold border-b-2 border-gray-400 w-52 ml-auto">Integrated Supplier
+                            </h3>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
                     <div class="flex flex-row-reverse gap-4 py-2">
                         <i class="fa-solid fa-ice-cream m-2"></i>
                         <div>
-                            <h3 class="text-2xl font-bold   border-b-2 border-gray-400">Fresh is Best</h3>
+                            <h3 class="text-2xl font-bold   border-b-2 border-gray-400 w-52 ml-auto">Fresh is Best</h3>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
                     <div class="flex flex-row-reverse gap-4 py-2">
                         <i class="fa-regular fa-thumbs-up m-2"></i>
                         <div>
-                            <h3 class="text-2xl font-bold  border-b-2 border-gray-400 ">Gift Certificates</h3>
+                            <h3 class="text-2xl font-bold  border-b-2 border-gray-400 w-52 ml-auto">Gift Certificates
+                            </h3>
                             <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
